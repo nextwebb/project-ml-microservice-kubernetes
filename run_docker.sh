@@ -11,5 +11,5 @@ docker build --tag=mldocker .
 docker images 
 
 # Step 3: 
-# Run flask app
+# Run flask app``
 docker run -d -p 8000:80 mldocker
