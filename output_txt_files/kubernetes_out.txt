@@ -1,1 +1,14 @@
-<paste log output from Kubernetes-mediated prediction, here>
+#Main terminal output
+NAME                        READY   STATUS    RESTARTS   AGE
+mldocker-6f4997d7c4-7j65p   1/1     Running   0          24m
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+
+# make_prediction terminal output
+(.env) nextwebb@C02H16CBQ05D project-ml-microservice-kubernetes % ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
